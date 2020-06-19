@@ -20,7 +20,6 @@ import './index.css'
 // Store
 const store = createStore(
   rootReducer,
-
   compose(
     applyMiddleware(thunk)
   )
